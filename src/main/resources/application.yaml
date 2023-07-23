@@ -6,3 +6,9 @@ spring:
       user: ${FINE_SVC_MONGODB_USER}
       password: ${FINE_SVC_MONGODB_PASSWORD}
       uri: mongodb://${FINE_SVC_MONGODB_HOST}:${FINE_SVC_MONGODB_PORT}/${FINE_SVC_MONGODB_DBNAME}
+  rabbitmq:
+    host: ${FINE_SVC_RABBIT_HOST}
+    port: ${FINE_SVC_RABBIT_PORT}
+    username: ${FINE_SVC_RABBIT_USER}
+    password: ${FINE_SVC_RABBIT_PASS}
+
